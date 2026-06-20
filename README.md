@@ -11,17 +11,6 @@ Desarrollo sistemas de venta e inventario, páginas web profesionales y automati
 - **Automatizaciones con IA** — Tareas repetitivas que la IA puede hacer por ti: responder mensajes, organizar datos, generar reportes. Pago mensual con soporte.
 - **Asesoría gratuita** — Sin costo ni compromiso. Agendamos una plática, identificamos dónde pierdes tiempo y dinero, y vemos si puedo ayudarte.
 
-## Proyecto
-
-Landing page construida con [Astro](https://astro.build) + Tailwind CSS + React (formulario de contacto).
-
-```bash
-pnpm install     # Instalar dependencias
-pnpm dev         # Servidor local en localhost:4321
-pnpm build       # Build producción en dist/
-pnpm preview     # Previsualizar build local
-```
-
 ## Contacto
 
 WhatsApp: [834 255 0555](https://wa.me/528342550555)  
