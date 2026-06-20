@@ -1,43 +1,28 @@
-# Astro Starter Kit: Minimal
+# Nexova
 
-```sh
-pnpm create astro@latest -- --template minimal
+**Soluciones técnicas para negocios de Cd. Victoria.**
+
+Desarrollo sistemas de venta e inventario, páginas web profesionales y automatizaciones con IA para negocios locales. Sin plantillas genéricas, todo a la medida de cada cliente.
+
+## Servicios
+
+- **Sistemas de venta e inventario** — Punto de venta, control de inventario, corte de caja, clientes. Pago mensual con soporte incluido.
+- **Páginas web** — Tu negocio en internet con diseño profesional, adaptable a celulares y con WhatsApp integrado. Pago único.
+- **Automatizaciones con IA** — Tareas repetitivas que la IA puede hacer por ti: responder mensajes, organizar datos, generar reportes. Pago mensual con soporte.
+- **Asesoría gratuita** — Sin costo ni compromiso. Agendamos una plática, identificamos dónde pierdes tiempo y dinero, y vemos si puedo ayudarte.
+
+## Proyecto
+
+Landing page construida con [Astro](https://astro.build) + Tailwind CSS + React (formulario de contacto).
+
+```bash
+pnpm install     # Instalar dependencias
+pnpm dev         # Servidor local en localhost:4321
+pnpm build       # Build producción en dist/
+pnpm preview     # Previsualizar build local
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Contacto
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+WhatsApp: [834 255 0555](https://wa.me/528342550555)  
+Web: https://nexova.vercel.app
