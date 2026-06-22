@@ -15,6 +15,7 @@ const {
 const domain = 'https://xolventa.vercel.app';
 const ogImage = `${domain}/og-image.webp`;
 ---
+
 <!doctype html>
 <html lang="es">
   <head>
@@ -24,7 +25,6 @@ const ogImage = `${domain}/og-image.webp`;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
-    <meta name="color-scheme" content="dark" />
     <meta name="keywords" content="software Cd. Victoria, sistemas de venta, inventario, páginas web, automatización IA, desarrollo web Tamaulipas, punto de venta, negocio local" />
     <link rel="canonical" href={domain} />
 
@@ -68,12 +68,26 @@ const ogImage = `${domain}/og-image.webp`;
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
     <title>{title}</title>
     <Analytics />
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+            }
+          });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
+      });
+    </script>
   </head>
-  <body class="min-h-screen bg-background text-foreground antialiased">
+  <body>
     <slot />
   </body>
 </html>
