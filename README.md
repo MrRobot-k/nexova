@@ -1,7 +1,8 @@
-# Xolventa
+# Xolventa Landing Page
 
-**Soluciones técnicas para negocios de Cd. Victoria.**  
-[🌐 xolventa.vercel.app](https://xolventa.vercel.app)
+**Soluciones técnicas para negocios de Cd. Victoria.**
+
+🌐 [xolventa.vercel.app](https://xolventa.vercel.app)
 
 Desarrollo sistemas de venta e inventario, páginas web profesionales y automatizaciones con IA para negocios locales. Sin plantillas genéricas, todo a la medida de cada cliente.
 

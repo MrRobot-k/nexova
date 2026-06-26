@@ -1,24 +1,94 @@
-# build output
-dist/
-# generated types
-.astro/
-
-# dependencies
+# Node.js
+*.log
+*.local
 node_modules/
-
-# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+.love
+coverage/
+lib-coverage/
+.nyc_output/
+.hrserver/
+.yarn/
+.pnp/
+.pnp.js
 
+# Distribution / packaging
+/dist/
+*.egg-info
+*.egg
+.eggs/
+dist/
+build/
+extdist/
+.npmrc
+yarn.lock
 
-# environment variables
-.env
+# Astro
+dist/
+.cache/
+.astro/
+debug/
+
+# Dependencies
+composer.lock
+vendor/
+
+# Database / data
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+.project
+.classpath
+*.launch
+!
+
+# OS / system
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+hs_quarantine/
+
+# Misc
+tmp/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Cache files
+*.cache
+.cache/
+*.lru_cache
+.cache-lru
+
+# Environment variables
+.env*
+.env.local
+.env.development
+.env.test
 .env.production
 
-# macOS-specific files
-.DS_Store
+# Temporary files
+*.tmp
+*.temp
 
-# jetbrains setting folder
-.idea/
+# Filesystem operations logs
+.fslog
+
+# Editor backups
+*~
